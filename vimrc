@@ -49,6 +49,10 @@ set foldnestmax=2
 " Show line numbers
 set nu
 
+" Make views automatic (save folds, etc)
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
+
 " Height of the command bar
 set cmdheight=2
 
