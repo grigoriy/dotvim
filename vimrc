@@ -46,6 +46,9 @@ set ruler
 set foldmethod=syntax
 set foldnestmax=2
 
+" Show right margin at 100 symbols
+set colorcolumn=100
+
 " Show line numbers
 set nu
 
