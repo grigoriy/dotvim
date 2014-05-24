@@ -42,6 +42,13 @@ endif
 "Always show current position
 set ruler
 
+" Folds are defined by syntax highlighting
+set foldmethod=syntax
+set foldnestmax=2
+
+" Show line numbers
+set nu
+
 " Height of the command bar
 set cmdheight=2
 

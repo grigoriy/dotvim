@@ -17,3 +17,9 @@ Switch to the '~/.vim' directory and fetch submodules:
 For details:
 
 http://www.vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen
+
+---------------------------------------------------------------------------------
+
+Tips:
+
+1) To use x-clipboard, install vim-gtk.
