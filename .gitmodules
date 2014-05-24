@@ -50,3 +50,6 @@
 	path = bundle/vim-conque
 	url = git@github.com:basepi/vim-conque.git
     ignore = untracked
+[submodule "bundle/xml.vim"]
+	path = bundle/xml.vim
+	url = git@github.com:othree/xml.vim.git
