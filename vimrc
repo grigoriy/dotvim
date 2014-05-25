@@ -106,7 +106,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+   colorscheme desert
 catch
 endtry
 
@@ -114,9 +114,11 @@ endtry
 if has("gui_running")
     set guioptions-=T
     set guioptions-=e
+    set guioptions-=m
     set t_Co=256
     set guitablabel=%M\ %t
-    set lines=900 columns=100
+    set lines=900 columns=120
+    set guifont=Monospace\ 8
 endif
 
 " Set utf8 as standard encoding and en_US as the standard language
@@ -249,7 +251,7 @@ endif
 
 
 " Rainbow parentheses
-let g:rainbow_active = 1
+let g:rainbow_active = 0
 
 
 " Airline
