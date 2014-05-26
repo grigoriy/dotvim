@@ -117,7 +117,7 @@ if has("gui_running")
     set guioptions-=m
     set t_Co=256
     set guitablabel=%M\ %t
-    set lines=900 columns=120
+    set lines=900 columns=140
     set guifont=Monospace\ 8
 endif
 
@@ -251,7 +251,7 @@ endif
 
 
 " Rainbow parentheses
-let g:rainbow_active = 0
+let g:rainbow_active = 1
 
 
 " Airline

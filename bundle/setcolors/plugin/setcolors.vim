@@ -112,7 +112,7 @@ function! s:HourColor()
   else
     let i = 4
   endif
-  let nowcolors = 'elflord morning desert evening pablo'
+  let nowcolors = 'elflord guepardo desert evening pablo'
   execute 'colorscheme '.split(nowcolors)[i]
   redraw
   echo g:colors_name
