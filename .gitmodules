@@ -54,3 +54,6 @@
 	path = bundle/xml.vim
 	url = git@github.com:othree/xml.vim.git
     ignore = untracked
+[submodule "bundle/todo.txt-vim"]
+	path = bundle/todo.txt-vim
+	url = git@github.com:freitass/todo.txt-vim.git
