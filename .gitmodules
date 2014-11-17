@@ -57,3 +57,6 @@
 [submodule "bundle/todo.txt-vim"]
 	path = bundle/todo.txt-vim
 	url = git@github.com:freitass/todo.txt-vim.git
+[submodule "bundle/vimbed"]
+    path = bundle/vimbed
+    url = git@github.com:ardagnir/vimbed.git
