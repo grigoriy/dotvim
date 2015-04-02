@@ -2,6 +2,7 @@
 set nocompatible
 
 " pathogen
+set runtimepath+=~/dotfiles/dotvim
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 execute pathogen#infect()
